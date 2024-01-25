@@ -1,0 +1,314 @@
+Model run by Vivit using Apollo 0.2.8 on R 4.2.2 for Windows.
+www.ApolloChoiceModelling.com
+
+Model name                                  : MNL_SP
+Model description                           : Simple MNL model on mode choice SP data
+Model run at                                : 2023-03-31 00:28:13
+Estimation method                           : bfgs
+Model diagnosis                             : successful convergence 
+Number of individuals                       : 112
+Number of rows in database                  : 448
+Number of modelled outcomes                 : 448
+
+Number of cores used                        :  1 
+Model without mixing
+
+LL(start)                                   : -492.18
+LL at equal shares, LL(0)                   : -492.18
+LL at observed shares, LL(C)                : -474.14
+LL(final)                                   : -463.03
+Rho-squared vs equal shares                  :  0.0592 
+Adj.Rho-squared vs equal shares              :  0.0409 
+Rho-squared vs observed shares               :  0.0234 
+Adj.Rho-squared vs observed shares           :  0.0044 
+AIC                                         :  944.06 
+BIC                                         :  981 
+
+Estimated parameters                        :  9
+Time taken (hh:mm:ss)                       :  00:00:1.06 
+     pre-estimation                         :  00:00:0.55 
+     estimation                             :  00:00:0.18 
+     post-estimation                        :  00:00:0.33 
+Iterations                                  :  18  
+Min abs eigenvalue of Hessian               :  4.22986 
+
+Unconstrained optimisation.
+
+These outputs have had the scaling used in estimation applied to them.
+Estimates:
+                 Estimate        s.e.   t.rat.(0)    Rob.s.e. Rob.t.rat.(0)
+ASC_BUS         -2.113428    0.468150     -4.5144    0.447328       -4.7246
+ASC_WALK         0.000000          NA          NA          NA            NA
+ASC_MOTOBIKE     0.000000          NA          NA          NA            NA
+b_tt_BUS        -0.009578    0.008664     -1.1054    0.007297       -1.3125
+b_tt_WALK       -0.184539    0.053002     -3.4817    0.054146       -3.4082
+b_tt_MOTOBIKE   -0.052710    0.026828     -1.9648    0.020631       -2.5549
+b_cost          -0.074244    0.032413     -2.2906    0.034083       -2.1783
+b_air            0.565552    0.252003      2.2442    0.315372        1.7933
+b_shade          0.101738    0.203112      0.5009    0.222277        0.4577
+b_helmet        -0.475054    0.205130     -2.3159    0.200389       -2.3707
+b_pavement       0.292677    0.205622      1.4234    0.232805        1.2572
+
+
+Overview of choices for MNL model component :
+                                   WALK    BUS MOTOBIKE
+Times available                  448.00 448.00   448.00
+Times chosen                     182.00  92.00   174.00
+Percentage chosen overall         40.62  20.54    38.84
+Percentage chosen when available  40.62  20.54    38.84
+
+
+Classical covariance matrix:
+                    ASC_BUS      b_tt_BUS     b_tt_WALK b_tt_MOTOBIKE
+ASC_BUS            0.219164     -0.001369      0.015099      0.002805
+b_tt_BUS          -0.001369     7.507e-05    1.5984e-04     9.339e-05
+b_tt_WALK          0.015099    1.5984e-04      0.002809    6.8494e-04
+b_tt_MOTOBIKE      0.002805     9.339e-05    6.8494e-04    7.1973e-04
+b_cost             0.008553     3.688e-05      0.001208    -9.711e-05
+b_air             -0.031473     5.571e-05      0.001827    -3.892e-05
+b_shade            0.008909    -6.151e-05     -0.002365   -4.2424e-04
+b_helmet           0.041510     5.688e-05      0.004116    8.7318e-04
+b_pavement         0.002308   -3.0694e-04     -0.003795     -0.001025
+                     b_cost         b_air       b_shade      b_helmet
+ASC_BUS            0.008553     -0.031473      0.008909      0.041510
+b_tt_BUS          3.688e-05     5.571e-05    -6.151e-05     5.688e-05
+b_tt_WALK          0.001208      0.001827     -0.002365      0.004116
+b_tt_MOTOBIKE    -9.711e-05    -3.892e-05   -4.2424e-04    8.7318e-04
+b_cost             0.001051      0.001053    3.6703e-04    8.3998e-04
+b_air              0.001053      0.063505     -0.009737     -0.006683
+b_shade          3.6703e-04     -0.009737      0.041254      0.002785
+b_helmet         8.3998e-04     -0.006683      0.002785      0.042078
+b_pavement       -4.298e-05     -0.007442      0.002408     -0.001558
+                 b_pavement
+ASC_BUS            0.002308
+b_tt_BUS        -3.0694e-04
+b_tt_WALK         -0.003795
+b_tt_MOTOBIKE     -0.001025
+b_cost           -4.298e-05
+b_air             -0.007442
+b_shade            0.002408
+b_helmet          -0.001558
+b_pavement         0.042280
+
+Robust covariance matrix:
+                    ASC_BUS      b_tt_BUS     b_tt_WALK b_tt_MOTOBIKE
+ASC_BUS            0.200102     -0.001348      0.012861      0.001913
+b_tt_BUS          -0.001348     5.325e-05    1.1195e-04     3.243e-05
+b_tt_WALK          0.012861    1.1195e-04      0.002932    4.2802e-04
+b_tt_MOTOBIKE      0.001913     3.243e-05    4.2802e-04    4.2566e-04
+b_cost             0.007489     1.323e-05      0.001219   -1.6798e-04
+b_air             -0.040151   -1.7345e-04      0.002290   -3.9369e-04
+b_shade            0.019237   -2.6559e-04     -0.002084   -8.6256e-04
+b_helmet           0.036166    -3.928e-05      0.003713      0.001286
+b_pavement         0.002555   -5.8891e-04     -0.006369     -0.001381
+                     b_cost         b_air       b_shade      b_helmet
+ASC_BUS            0.007489     -0.040151      0.019237      0.036166
+b_tt_BUS          1.323e-05   -1.7345e-04   -2.6559e-04    -3.928e-05
+b_tt_WALK          0.001219      0.002290     -0.002084      0.003713
+b_tt_MOTOBIKE   -1.6798e-04   -3.9369e-04   -8.6256e-04      0.001286
+b_cost             0.001162      0.002066      0.001889    1.7996e-04
+b_air              0.002066      0.099459   -6.9978e-04     -0.003327
+b_shade            0.001889   -6.9978e-04      0.049407      0.003473
+b_helmet         1.7996e-04     -0.003327      0.003473      0.040156
+b_pavement      -7.3400e-04     -0.006691      0.009431     -0.003229
+                 b_pavement
+ASC_BUS            0.002555
+b_tt_BUS        -5.8891e-04
+b_tt_WALK         -0.006369
+b_tt_MOTOBIKE     -0.001381
+b_cost          -7.3400e-04
+b_air             -0.006691
+b_shade            0.009431
+b_helmet          -0.003229
+b_pavement         0.054198
+
+Classical correlation matrix:
+                    ASC_BUS      b_tt_BUS     b_tt_WALK b_tt_MOTOBIKE
+ASC_BUS             1.00000      -0.33758        0.6085      0.223360
+b_tt_BUS           -0.33758       1.00000        0.3481      0.401765
+b_tt_WALK           0.60850       0.34806        1.0000      0.481695
+b_tt_MOTOBIKE       0.22336       0.40177        0.4817      1.000000
+b_cost              0.56363       0.13132        0.7031     -0.111675
+b_air              -0.26678       0.02551        0.1368     -0.005757
+b_shade             0.09369      -0.03495       -0.2197     -0.077856
+b_helmet            0.43225       0.03200        0.3786      0.158667
+b_pavement          0.02397      -0.17229       -0.3482     -0.185750
+                     b_cost         b_air       b_shade      b_helmet
+ASC_BUS            0.563631     -0.266778       0.09369       0.43225
+b_tt_BUS           0.131316      0.025513      -0.03495       0.03200
+b_tt_WALK          0.703094      0.136771      -0.21971       0.37857
+b_tt_MOTOBIKE     -0.111675     -0.005757      -0.07786       0.15867
+b_cost             1.000000      0.128962       0.05575       0.12633
+b_air              0.128962      1.000000      -0.19023      -0.12928
+b_shade            0.055750     -0.190233       1.00000       0.06684
+b_helmet           0.126335     -0.129275       0.06684       1.00000
+b_pavement        -0.006448     -0.143628       0.05765      -0.03694
+                 b_pavement
+ASC_BUS            0.023973
+b_tt_BUS          -0.172287
+b_tt_WALK         -0.348180
+b_tt_MOTOBIKE     -0.185750
+b_cost            -0.006448
+b_air             -0.143628
+b_shade            0.057646
+b_helmet          -0.036938
+b_pavement         1.000000
+
+Robust correlation matrix:
+                    ASC_BUS      b_tt_BUS     b_tt_WALK b_tt_MOTOBIKE
+ASC_BUS             1.00000      -0.41295        0.5310       0.20724
+b_tt_BUS           -0.41295       1.00000        0.2833       0.21541
+b_tt_WALK           0.53100       0.28334        1.0000       0.38315
+b_tt_MOTOBIKE       0.20724       0.21541        0.3831       1.00000
+b_cost              0.49118       0.05318        0.6606      -0.23889
+b_air              -0.28461      -0.07537        0.1341      -0.06051
+b_shade             0.19347      -0.16375       -0.1731      -0.18809
+b_helmet            0.40346      -0.02686        0.3422       0.31101
+b_pavement          0.02454      -0.34667       -0.5053      -0.28757
+                     b_cost         b_air       b_shade      b_helmet
+ASC_BUS             0.49118     -0.284611      0.193467       0.40346
+b_tt_BUS            0.05318     -0.075370     -0.163750      -0.02686
+b_tt_WALK           0.66059      0.134124     -0.173140       0.34219
+b_tt_MOTOBIKE      -0.23889     -0.060507     -0.188091       0.31101
+b_cost              1.00000      0.192211      0.249322       0.02635
+b_air               0.19221      1.000000     -0.009983      -0.05264
+b_shade             0.24932     -0.009983      1.000000       0.07797
+b_helmet            0.02635     -0.052639      0.077966       1.00000
+b_pavement         -0.09251     -0.091136      0.182244      -0.06921
+                 b_pavement
+ASC_BUS             0.02454
+b_tt_BUS           -0.34667
+b_tt_WALK          -0.50529
+b_tt_MOTOBIKE      -0.28757
+b_cost             -0.09251
+b_air              -0.09114
+b_shade             0.18224
+b_helmet           -0.06921
+b_pavement          1.00000
+
+ 20 worst outliers in terms of lowest average per choice prediction:
+  ID Avg prob per choice
+  56           0.1736176
+  31           0.2309470
+  36           0.2337011
+  52           0.2337011
+  34           0.2343499
+ 104           0.2494825
+  50           0.2500797
+  81           0.2541250
+  80           0.2690221
+ 112           0.2712469
+  39           0.2732459
+  62           0.2876774
+  35           0.2913167
+  55           0.2913167
+  59           0.2925403
+  99           0.2960509
+   3           0.2970833
+  19           0.2970833
+  10           0.2991338
+  75           0.3010212
+
+Changes in parameter estimates from starting values:
+                  Initial    Estimate  Difference
+ASC_BUS             0.000   -2.113428   -2.113428
+ASC_WALK            0.000    0.000000    0.000000
+ASC_MOTOBIKE        0.000    0.000000    0.000000
+b_tt_BUS            0.000   -0.009578   -0.009578
+b_tt_WALK           0.000   -0.184539   -0.184539
+b_tt_MOTOBIKE       0.000   -0.052710   -0.052710
+b_cost              0.000   -0.074244   -0.074244
+b_air               0.000    0.565552    0.565552
+b_shade             0.000    0.101738    0.101738
+b_helmet            0.000   -0.475054   -0.475054
+b_pavement          0.000    0.292677    0.292677
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                                    
+modelName              "MNL_SP"                                 
+modelDescr             "Simple MNL model on mode choice SP data"
+indivID                "ID"                                     
+outputDirectory        "output/"                                
+debug                  "FALSE"                                  
+nCores                 "1"                                      
+workInLogs             "FALSE"                                  
+seed                   "13"                                     
+mixing                 "FALSE"                                  
+HB                     "FALSE"                                  
+noValidation           "FALSE"                                  
+noDiagnostics          "FALSE"                                  
+calculateLLC           "TRUE"                                   
+panelData              "TRUE"                                   
+analyticGrad           "TRUE"                                   
+analyticGrad_manualSet "FALSE"                                  
+
+Hessian routines attempted
+--------------
+numerical jacobian of LL analytical gradient
+
+Scaling in estimation
+--------------
+                   Value
+ASC_BUS       2.11342648
+b_tt_BUS      0.00957759
+b_tt_WALK     0.18453897
+b_tt_MOTOBIKE 0.05271028
+b_cost        0.07424360
+b_air         0.56555180
+b_shade       0.10173775
+b_helmet      0.47505387
+b_pavement    0.29267659
+
+Scaling used in computing Hessian
+--------------
+                    Value
+ASC_BUS       2.113428131
+b_tt_BUS      0.009577591
+b_tt_WALK     0.184539143
+b_tt_MOTOBIKE 0.052710270
+b_cost        0.074243561
+b_air         0.565551739
+b_shade       0.101737744
+b_helmet      0.475053709
+b_pavement    0.292676539
+
+
+apollo_probabilities
+--------------------
+function(apollo_beta, apollo_inputs, functionality="estimate"){
+    
+  ### Attach inputs and detach after function exit
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+
+  ### Create list of probabilities P
+  P = list()
+  
+  ### List of utilities: these must use the same names as in mnl_settings, order is irrelevant
+  V = list()
+  V[["BUS"]]  = ASC_BUS  + (b_tt_BUS * time_bus)  + (b_cost * cost_bus) + (b_air * Attbus_air) 
+  V[["WALK"]]  = ASC_WALK  + (b_tt_WALK  * time_walk) + (b_shade * Attwalk_shade) + (b_pavement * Attwalk_pavement) 
+  V[["MOTOBIKE"]]  = ASC_MOTOBIKE  + (b_tt_MOTOBIKE  * time_mc)   + (b_cost * cost_mc) + (b_helmet * Attmc_helmet) 
+  
+  ### Define settings for MNL model component
+  mnl_settings = list(
+    alternatives  = c(WALK=1, BUS=2, MOTOBIKE=3), 
+    avail         = list(BUS=av_bus, WALK=av_walk, MOTOBIKE=av_mc), 
+    choiceVar     = choice,
+    utilities     = V
+  )
+  
+  ### Compute probabilities using MNL model
+  P[["model"]] = apollo_mnl(mnl_settings, functionality)
+  
+  ### Take product across observation for same individual
+  P = apollo_panelProd(P, apollo_inputs, functionality)
+  
+  ### Prepare and return outputs of function
+  P = apollo_prepareProb(P, apollo_inputs, functionality)
+  return(P)
+}
+<bytecode: 0x00000261602fd218>

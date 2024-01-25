@@ -1,0 +1,4 @@
+﻿                  Warning	The pedestrian link 26 is partitioned into multiple parts by an obstacle. Active conflict areas on this link might have no effect. Please check if all network objects are located on the intended levels, reduce the size of the obstacle(s) or split the link into separate links.	Network object type: Link	Network object keys: 26
+                  Warning	Simulation second 379.50: After 60.00 seconds of waiting for lane change the vehicle 193 (on Static Vehicle Route "2 - 4") was removed from link "8" at position 75.851 m.	Network object type: Vehicle	Network object keys: 193
+                  Warning	Vehicle input 2: red could not be finished completely (remain: 44 vehicles).	Network object type: Vehicle Input	Network object keys: 2
+                  Warning	Vehicle input 3: purple could not be finished completely (remain: 13 vehicles).	Network object type: Vehicle Input	Network object keys: 3

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<network version="1000" vissimVersion="2023.00-04 [254185]">
+	<conflictAreas>
+		<modified>
+			<conflictArea no="111" status="ONEYIELDSTWO"/>
+			<conflictArea no="112" status="ONEYIELDSTWO"/>
+			<conflictArea no="121" status="ONEYIELDSTWO"/>
+			<conflictArea no="122" status="ONEYIELDSTWO"/>
+			<conflictArea no="154" status="TWOYIELDSONE"/>
+			<conflictArea no="155" status="TWOYIELDSONE"/>
+			<conflictArea no="160" status="TWOYIELDSONE"/>
+			<conflictArea no="161" status="TWOYIELDSONE"/>
+			<conflictArea no="165" status="TWOYIELDSONE"/>
+			<conflictArea no="166" status="TWOYIELDSONE"/>
+			<conflictArea no="168" status="TWOYIELDSONE"/>
+			<conflictArea no="169" status="TWOYIELDSONE"/>
+		</modified>
+	</conflictAreas>
+	<pedestrianInputs>
+		<modified>
+			<pedestrianInput no="1">
+				<timeIntPedVols>
+					<modified>
+						<timeIntervalPedVolume timeInt="5 0" volume="30"/>
+					</modified>
+				</timeIntPedVols>
+			</pedestrianInput>
+			<pedestrianInput no="2">
+				<timeIntPedVols>
+					<modified>
+						<timeIntervalPedVolume timeInt="5 0" volume="30"/>
+					</modified>
+				</timeIntPedVols>
+			</pedestrianInput>
+			<pedestrianInput no="3">
+				<timeIntPedVols>
+					<modified>
+						<timeIntervalPedVolume timeInt="5 0" volume="30"/>
+					</modified>
+				</timeIntPedVols>
+			</pedestrianInput>
+			<pedestrianInput no="4">
+				<timeIntPedVols>
+					<modified>
+						<timeIntervalPedVolume timeInt="5 0" volume="30"/>
+					</modified>
+				</timeIntPedVols>
+			</pedestrianInput>
+			<pedestrianInput no="5">
+				<timeIntPedVols>
+					<modified>
+						<timeIntervalPedVolume timeInt="5 0" volume="30"/>
+					</modified>
+				</timeIntPedVols>
+			</pedestrianInput>
+			<pedestrianInput no="6">
+				<timeIntPedVols>
+					<modified>
+						<timeIntervalPedVolume timeInt="5 0" volume="30"/>
+					</modified>
+				</timeIntPedVols>
+			</pedestrianInput>
+		</modified>
+	</pedestrianInputs>
+	<signalControllers>
+		<added>
+			<signalController active="true" cycTm="0" cycTmIsVar="false" debug="false" guiFile="#exe#vissig_gui.dll" intSupplyData="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzYyB2ZXJzaW9uPSIyMDIwMDEiIGlkPSI0IiBuYW1lPSIiIGZyZXF1ZW5jeT0iMSIgc3RlcHM9IjAiIGRlZmF1bHRJbnRlcmdyZWVuTWF0cml4PSIwIiBpbnRlcnN0YWdlc1VzaW5nTWluRHVyYXRpb25zPSJ0cnVlIiBjaGVja1N1bT0iNDMwNjE4Mzk3Ij4NCiAgPHNpZ25hbGRpc3BsYXlzPg0KICAgIDxkaXNwbGF5IGlkPSIxIiBuYW1lPSJSZWQiIHN0YXRlPSJSRUQiPg0KICAgICAgPHBhdHRlcm5zPg0KICAgICAgICA8cGF0dGVybiBwYXR0ZXJuPSJNSU5VUyIgY29sb3I9IiNGRjAwMDAiIGlzQm9sZD0idHJ1ZSIgLz4NCiAgICAgIDwvcGF0dGVybnM+DQogICAgPC9kaXNwbGF5Pg0KICAgIDxkaXNwbGF5IGlkPSIzIiBuYW1lPSJHcmVlbiIgc3RhdGU9IkdSRUVOIj4NCiAgICAgIDxwYXR0ZXJucz4NCiAgICAgICAgPHBhdHRlcm4gcGF0dGVybj0iRlJBTUUiIGNvbG9yPSIjMDBDQzAwIiBpc0JvbGQ9InRydWUiIC8+DQogICAgICAgIDxwYXR0ZXJuIHBhdHRlcm49IlNPTElEIiBjb2xvcj0iIzAwQ0MwMCIgaXNCb2xkPSJmYWxzZSIgLz4NCiAgICAgIDwvcGF0dGVybnM+DQogICAgPC9kaXNwbGF5Pg0KICAgIDxkaXNwbGF5IGlkPSI0IiBuYW1lPSJBbWJlciIgc3RhdGU9IkFNQkVSIj4NCiAgICAgIDxwYXR0ZXJucz4NCiAgICAgICAgPHBhdHRlcm4gcGF0dGVybj0iRlJBTUUiIGNvbG9yPSIjQ0NDQzAwIiBpc0JvbGQ9InRydWUiIC8+DQogICAgICAgIDxwYXR0ZXJuIHBhdHRlcm49IlNMQVNIIiBjb2xvcj0iI0NDQ0MwMCIgaXNCb2xkPSJmYWxzZSIgLz4NCiAgICAgIDwvcGF0dGVybnM+DQogICAgPC9kaXNwbGF5Pg0KICA8L3NpZ25hbGRpc3BsYXlzPg0KICA8c2lnbmFsc2VxdWVuY2VzPg0KICAgIDxzaWduYWxzZXF1ZW5jZSBpZD0iNyIgbmFtZT0iUmVkLUdyZWVuLUFtYmVyIj4NCiAgICAgIDxzdGF0ZSBkaXNwbGF5PSIxIiBpc0ZpeGVkRHVyYXRpb249ImZhbHNlIiBpc0Nsb3NlZD0idHJ1ZSIgZGVmYXVsdER1cmF0aW9uPSIxMDAwIiAvPg0KICAgICAgPHN0YXRlIGRpc3BsYXk9IjMiIGlzRml4ZWREdXJhdGlvbj0iZmFsc2UiIGlzQ2xvc2VkPSJmYWxzZSIgZGVmYXVsdER1cmF0aW9uPSI1MDAwIiAvPg0KICAgICAgPHN0YXRlIGRpc3BsYXk9IjQiIGlzRml4ZWREdXJhdGlvbj0idHJ1ZSIgaXNDbG9zZWQ9InRydWUiIGRlZmF1bHREdXJhdGlvbj0iMzAwMCIgLz4NCiAgICA8L3NpZ25hbHNlcXVlbmNlPg0KICA8L3NpZ25hbHNlcXVlbmNlcz4NCiAgPHNncz4NCiAgICA8c2cgaWQ9IjEiIG5hbWU9IkluIiBkZWZhdWx0U2lnbmFsU2VxdWVuY2U9IjciPg0KICAgICAgPGRlZmF1bHREdXJhdGlvbnM+DQogICAgICAgIDxkZWZhdWx0RHVyYXRpb24gZGlzcGxheT0iMSIgZHVyYXRpb249IjEwMDAiIC8+DQogICAgICAgIDxkZWZhdWx0RHVyYXRpb24gZGlzcGxheT0iMyIgZHVyYXRpb249IjUwMDAiIC8+DQogICAgICAgIDxkZWZhdWx0RHVyYXRpb24gZGlzcGxheT0iNCIgZHVyYXRpb249IjMwMDAiIC8+DQogICAgICA8L2RlZmF1bHREdXJhdGlvbnM+DQogICAgPC9zZz4NCiAgICA8c2cgaWQ9IjIiIG5hbWU9Ik91dCIgZGVmYXVsdFNpZ25hbFNlcXVlbmNlPSI3Ij4NCiAgICAgIDxkZWZhdWx0RHVyYXRpb25zPg0KICAgICAgICA8ZGVmYXVsdER1cmF0aW9uIGRpc3BsYXk9IjEiIGR1cmF0aW9uPSIxMDAwIiAvPg0KICAgICAgICA8ZGVmYXVsdER1cmF0aW9uIGRpc3BsYXk9IjMiIGR1cmF0aW9uPSI1MDAwIiAvPg0KICAgICAgICA8ZGVmYXVsdER1cmF0aW9uIGRpc3BsYXk9IjQiIGR1cmF0aW9uPSIzMDAwIiAvPg0KICAgICAgPC9kZWZhdWx0RHVyYXRpb25zPg0KICAgIDwvc2c+DQogICAgPHNnIGlkPSIzIiBuYW1lPSJNaW5vciIgZGVmYXVsdFNpZ25hbFNlcXVlbmNlPSI3Ij4NCiAgICAgIDxkZWZhdWx0RHVyYXRpb25zPg0KICAgICAgICA8ZGVmYXVsdER1cmF0aW9uIGRpc3BsYXk9IjEiIGR1cmF0aW9uPSIxMDAwIiAvPg0KICAgICAgICA8ZGVmYXVsdER1cmF0aW9uIGRpc3BsYXk9IjMiIGR1cmF0aW9uPSI1MDAwIiAvPg0KICAgICAgICA8ZGVmYXVsdER1cmF0aW9uIGRpc3BsYXk9IjQiIGR1cmF0aW9uPSIzMDAwIiAvPg0KICAgICAgPC9kZWZhdWx0RHVyYXRpb25zPg0KICAgIDwvc2c+DQogIDwvc2dzPg0KICA8aW50ZXJncmVlbm1hdHJpY2VzPg0KICAgIDxpbnRlcmdyZWVubWF0cml4IGlkPSIxIiBuYW1lPSJJbnRlcmdyZWVuIG1hdHJpeCAxIj4NCiAgICAgIDxpbnRlcmdyZWVuIGNsZWFyaW5nc2c9IjEiIGVudGVyaW5nc2c9IjIiIHZhbHVlPSIzMDAwIiAvPg0KICAgICAgPGludGVyZ3JlZW4gY2xlYXJpbmdzZz0iMSIgZW50ZXJpbmdzZz0iMyIgdmFsdWU9IjMwMDAiIC8+DQogICAgICA8aW50ZXJncmVlbiBjbGVhcmluZ3NnPSIyIiBlbnRlcmluZ3NnPSIzIiB2YWx1ZT0iMzAwMCIgLz4NCiAgICAgIDxpbnRlcmdyZWVuIGNsZWFyaW5nc2c9IjMiIGVudGVyaW5nc2c9IjIiIHZhbHVlPSIzMDAwIiAvPg0KICAgICAgPGludGVyZ3JlZW4gY2xlYXJpbmdzZz0iMiIgZW50ZXJpbmdzZz0iMSIgdmFsdWU9IjMwMDAiIC8+DQogICAgICA8aW50ZXJncmVlbiBjbGVhcmluZ3NnPSIzIiBlbnRlcmluZ3NnPSIxIiB2YWx1ZT0iMzAwMCIgLz4NCiAgICA8L2ludGVyZ3JlZW5tYXRyaXg+DQogIDwvaW50ZXJncmVlbm1hdHJpY2VzPg0KICA8cHJvZ3M+DQogICAgPHByb2cgaWQ9IjEiIGN5Y2xldGltZT0iOTAwMDAiIHN3aXRjaHBvaW50PSIwIiBvZmZzZXQ9IjAiIGludGVyZ3JlZW5zPSIxIiBmaXRuZXNzPSIwLjAwMDAwMCIgdmVoaWNsZUNvdW50PSIwIiBuYW1lPSJTaWduYWwgcHJvZ3JhbSAxIj4NCiAgICAgIDxzZ3M+DQogICAgICAgIDxzZyBzZ19pZD0iMSIgc2lnbmFsX3NlcXVlbmNlPSI3Ij4NCiAgICAgICAgICA8Y21kcz4NCiAgICAgICAgICAgIDxjbWQgZGlzcGxheT0iMyIgYmVnaW49IjEwMDAiIC8+DQogICAgICAgICAgICA8Y21kIGRpc3BsYXk9IjEiIGJlZ2luPSIzMzAwMCIgLz4NCiAgICAgICAgICA8L2NtZHM+DQogICAgICAgICAgPGZpeGVkc3RhdGVzPg0KICAgICAgICAgICAgPGZpeGVkc3RhdGUgZGlzcGxheT0iNCIgZHVyYXRpb249IjMwMDAiIC8+DQogICAgICAgICAgPC9maXhlZHN0YXRlcz4NCiAgICAgICAgPC9zZz4NCiAgICAgICAgPHNnIHNnX2lkPSIyIiBzaWduYWxfc2VxdWVuY2U9IjciPg0KICAgICAgICAgIDxjbWRzPg0KICAgICAgICAgICAgPGNtZCBkaXNwbGF5PSIzIiBiZWdpbj0iMzMwMDAiIC8+DQogICAgICAgICAgICA8Y21kIGRpc3BsYXk9IjEiIGJlZ2luPSI2ODAwMCIgLz4NCiAgICAgICAgICA8L2NtZHM+DQogICAgICAgICAgPGZpeGVkc3RhdGVzPg0KICAgICAgICAgICAgPGZpeGVkc3RhdGUgZGlzcGxheT0iNCIgZHVyYXRpb249IjMwMDAiIC8+DQogICAgICAgICAgPC9maXhlZHN0YXRlcz4NCiAgICAgICAgPC9zZz4NCiAgICAgICAgPHNnIHNnX2lkPSIzIiBzaWduYWxfc2VxdWVuY2U9IjciPg0KICAgICAgICAgIDxjbWRzPg0KICAgICAgICAgICAgPGNtZCBkaXNwbGF5PSIzIiBiZWdpbj0iNjgwMDAiIC8+DQogICAgICAgICAgICA8Y21kIGRpc3BsYXk9IjEiIGJlZ2luPSI4OTAwMCIgLz4NCiAgICAgICAgICA8L2NtZHM+DQogICAgICAgICAgPGZpeGVkc3RhdGVzPg0KICAgICAgICAgICAgPGZpeGVkc3RhdGUgZGlzcGxheT0iNCIgZHVyYXRpb249IjMwMDAiIC8+DQogICAgICAgICAgPC9maXhlZHN0YXRlcz4NCiAgICAgICAgPC9zZz4NCiAgICAgIDwvc2dzPg0KICAgIDwvcHJvZz4NCiAgPC9wcm9ncz4NCiAgPHN0YWdlcyAvPg0KICA8aW50ZXJzdGFnZVByb2dzIC8+DQogIDxzdGFnZVByb2dzIC8+DQogIDxkYWlseVByb2dMaXN0cyAvPg0KPC9zYz4=" name="1" no="4" offset="0" progFile="#exe#vissig_controller.dll" progNo="1" scDetRecLabelDet="PORTNUMBER" scDetRecLabelSG="NUMBER" scDetRecShortNam="false" sigTmsTabAutoConfig="true" sigTmsTabLabelDet="PORTNUMBER" sigTmsTabLabelSG="NUMBER" supplyFile1="#exe#vissig.config" supplyFile2="" supplyFile3="" type="FIXEDTIME">
+				<rampMeterPara metEvalInt="60" metRateQDisp="0.25" occupDes="0.25" occupQDispAct="0.5" occupQDispDeact="0.1" regPara="0.019444444444444441"/>
+				<sgs>
+					<signalGroup actuationType="UNDEFINED" amber="3" callDetPortNo="0" chkOutDetPortNo="0" clearTm="0" endGreen="0" endRed="0" greenFlsh="0" maxGreen="0" minGreen="5" minRed="1" name="In" no="1" redAmber="0" type="NORMAL"/>
+					<signalGroup actuationType="UNDEFINED" amber="3" callDetPortNo="0" chkOutDetPortNo="0" clearTm="0" endGreen="0" endRed="0" greenFlsh="0" maxGreen="0" minGreen="5" minRed="1" name="Out" no="2" redAmber="0" type="NORMAL"/>
+					<signalGroup actuationType="UNDEFINED" amber="3" callDetPortNo="0" chkOutDetPortNo="0" clearTm="0" endGreen="0" endRed="0" greenFlsh="0" maxGreen="0" minGreen="5" minRed="1" name="Minor" no="3" redAmber="0" type="NORMAL"/>
+				</sgs>
+				<sigTmsTabConfig>
+					<signalOutputConfigurationElement configName="SIGGRP" detPort="0" sg="4 1" title="" varNo="1" wttFilename=""/>
+					<signalOutputConfigurationElement configName="SIGGRP" detPort="0" sg="4 2" title="" varNo="2" wttFilename=""/>
+					<signalOutputConfigurationElement configName="SIGGRP" detPort="0" sg="4 3" title="" varNo="3" wttFilename=""/>
+				</sigTmsTabConfig>
+				<wttFiles>
+					<intObjectRef key="3"/>
+				</wttFiles>
+			</signalController>
+		</added>
+	</signalControllers>
+	<signalHeads>
+		<added>
+			<signalHead allPedTypes="true" allVehTypes="true" anmFlag="false" complRate="1" dischRecAct="false" isBlockSig="false" lane="3 2" localNo="0" name="" no="38" pos="80.24151524219748" sg="4 1" slowDownDist="3" type="CIRCULAR" vAmberBlock="0"/>
+			<signalHead allPedTypes="true" allVehTypes="true" anmFlag="false" complRate="1" dischRecAct="false" isBlockSig="false" lane="3 1" localNo="0" name="" no="39" pos="80.368780161301743" sg="4 1" slowDownDist="3" type="CIRCULAR" vAmberBlock="0"/>
+			<signalHead allPedTypes="true" allVehTypes="true" anmFlag="false" complRate="1" dischRecAct="false" isBlockSig="false" lane="8 1" localNo="0" name="" no="40" pos="77.682578858364735" sg="4 2" slowDownDist="3" type="CIRCULAR" vAmberBlock="0"/>
+			<signalHead allPedTypes="true" allVehTypes="true" anmFlag="false" complRate="1" dischRecAct="false" isBlockSig="false" lane="8 2" localNo="0" name="" no="41" pos="77.626192005968051" sg="4 2" slowDownDist="3" type="CIRCULAR" vAmberBlock="0"/>
+			<signalHead allPedTypes="true" allVehTypes="true" anmFlag="false" complRate="1" dischRecAct="false" isBlockSig="false" lane="6 1" localNo="0" name="" no="42" pos="33.176309269510639" sg="4 3" slowDownDist="3" type="CIRCULAR" vAmberBlock="0"/>
+		</added>
+	</signalHeads>
+	<signals3D>
+		<added>
+			<trafficSignal3D level="1" name="" no="1" rotation="-253.64223971730917" scale="1">
+				<coord x="18.659997744201426" y="2.0855332219933711" zOffset="0"/>
+				<mast color="ffb2b2b2" diam="0.14" height="3" length="0.6" regAsObst="true" scale="1" style="ROUND" visible="true" width="0.3">
+					<posRel xOffset="0" yOffset="0" zOffset="0"/>
+				</mast>
+				<sigHeads>
+					<signalHead3D assocSGThr="4 1" flipped="false" layout="THREELENSCIRCULARVERTICAL" rotHoriz="0" rotVert="0" scale="1" visible="true">
+						<posRel xOffset="0.0078978223319587926" yOffset="0.13736327658843239" zOffset="2.5034199463179854"/>
+					</signalHead3D>
+				</sigHeads>
+			</trafficSignal3D>
+			<trafficSignal3D level="1" name="" no="2" rotation="-408.00304368584608" scale="1">
+				<coord x="35.252429581654184" y="-17.646007341463957" zOffset="0"/>
+				<mast color="ffb2b2b2" diam="0.14" height="3" length="0.6" regAsObst="true" scale="1" style="ROUND" visible="true" width="0.3">
+					<posRel xOffset="0" yOffset="0" zOffset="0"/>
+				</mast>
+				<sigHeads>
+					<signalHead3D assocSGThr="4 2" flipped="false" layout="THREELENSCIRCULARVERTICAL" rotHoriz="0" rotVert="0" scale="1" visible="true">
+						<posRel xOffset="0.0078978223319587926" yOffset="0.13736327658843239" zOffset="2.5034199463179854"/>
+					</signalHead3D>
+				</sigHeads>
+			</trafficSignal3D>
+			<trafficSignal3D level="1" name="" no="3" rotation="25.731348073806032" scale="1">
+				<coord x="33.135773412119676" y="4.5902430226092115" zOffset="0"/>
+				<mast color="ffb2b2b2" diam="0.14" height="3" length="0.6" regAsObst="true" scale="1" style="ROUND" visible="true" width="0.3">
+					<posRel xOffset="0" yOffset="0" zOffset="0"/>
+				</mast>
+				<sigHeads>
+					<signalHead3D assocSGThr="4 3" flipped="false" layout="THREELENSCIRCULARVERTICAL" rotHoriz="0" rotVert="0" scale="1" visible="true">
+						<posRel xOffset="0.0078978223319587926" yOffset="0.13736327658843239" zOffset="2.5034199463179854"/>
+					</signalHead3D>
+				</sigHeads>
+			</trafficSignal3D>
+		</added>
+	</signals3D>
+	<vehicleInputs>
+		<modified>
+			<vehicleInput no="1">
+				<timeIntVehVols>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volume="1200"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+			<vehicleInput no="2">
+				<timeIntVehVols>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volume="1400"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+			<vehicleInput no="3">
+				<timeIntVehVols>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volume="300"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+		</modified>
+	</vehicleInputs>
+	<vehicleRoutingDecisionsStatic>
+		<modified>
+			<vehicleRoutingDecisionStatic no="2">
+				<vehRoutSta>
+					<modified>
+						<vehicleRouteStatic no="4" relFlow="2 0:10"/>
+						<vehicleRouteStatic no="5" relFlow="2 0:7"/>
+					</modified>
+				</vehRoutSta>
+			</vehicleRoutingDecisionStatic>
+		</modified>
+	</vehicleRoutingDecisionsStatic>
+	<wttFiles>
+		<added>
+			<wttFile file="#exe#vissig.wtt" no="3"/>
+		</added>
+	</wttFiles>
+</network>

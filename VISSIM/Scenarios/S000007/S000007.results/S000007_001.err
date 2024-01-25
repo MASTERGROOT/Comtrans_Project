@@ -1,0 +1,2 @@
+﻿                  Warning	The pedestrian link 26 is partitioned into multiple parts by an obstacle. Active conflict areas on this link might have no effect. Please check if all network objects are located on the intended levels, reduce the size of the obstacle(s) or split the link into separate links.	Network object type: Link	Network object keys: 26
+                  Warning	Vehicle input 3: purple could not be finished completely (remain: 17 vehicles).	Network object type: Vehicle Input	Network object keys: 3

@@ -1,0 +1,2 @@
+﻿                  Warning	The pedestrian link 26 is partitioned into multiple parts by an obstacle. Active conflict areas on this link might have no effect. Please check if all network objects are located on the intended levels, reduce the size of the obstacle(s) or split the link into separate links.	Network object type: Link	Network object keys: 26
+                  Warning	There are obstacles or holes at the start of ramp 2. This may lead to unexpected pedestrian behavior.	Network object type: Ramp	Network object keys: 2

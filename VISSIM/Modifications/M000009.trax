@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<network version="1000" vissimVersion="2023.00-04 [254185]">
+	<dataCollectionMeasurements>
+		<modified>
+			<dataCollectionMeasurement no="4">
+				<dataCollectionPoints>
+					<intObjectRef key="15"/>
+				</dataCollectionPoints>
+			</dataCollectionMeasurement>
+			<dataCollectionMeasurement no="5">
+				<dataCollectionPoints>
+					<intObjectRef key="16"/>
+				</dataCollectionPoints>
+			</dataCollectionMeasurement>
+		</modified>
+	</dataCollectionMeasurements>
+	<dataCollectionPoints>
+		<added>
+			<dataCollectionPoint lane="10012 1" name="" no="15" pos="4.7088076142046535"/>
+			<dataCollectionPoint lane="10010 1" name="" no="16" pos="5.2655842754506219"/>
+		</added>
+	</dataCollectionPoints>
+</network>
